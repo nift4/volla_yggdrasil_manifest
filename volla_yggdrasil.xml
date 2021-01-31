@@ -2,8 +2,8 @@
 <manifest>
 
   <!-- Device repos --> 
-  <project path="device/volla/yggdrasil" name="wikomeme/android_device_volla_yggdrasil" remote="github" revision="staging/lineage-17.1" />
-  <project path="kernel/volla/mt6763" name="wikomeme/android_kernel_volla_mt6763" remote="github" />
-  <project path="vendor/volla/yggdrasil" name="wikomeme/android_vendor_volla_yggdrasil" remote="github" revision="master" />
-  
+  <project path="device/volla/yggdrasil" name="wikomeme/android_device_volla_yggdrasil" remote="github" revision="lineage-17.1" />
+  <project path="kernel/volla/mt6763" name="wikomeme/android_kernel_volla_mt6763" remote="github" revision="lineage-17.1"/>
+  <project path="vendor/volla" name="wikomeme/proprietary_vendor_volla" remote="github" revision="lineage-17.1" />
+  <project path="device/mediatek/sepolicy" name="LineageOS/android_device_mediatek_sepolicy" remote="github" revision="lineage-17.1" />
 </manifest>
